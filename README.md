@@ -41,9 +41,9 @@ La tarea contiene los siguientes archivos:
 
 | Archivo | Descripción |
 | ---- | ---- |
-| .env | Variables de entorno necesarias para inicializar y administrar la base de datos consultorio. |
-| docker-compose.yml | Archivo que define la orquestación. |
-| demostracion.json | Ejemplo de automatización con n8n. |
+| [.env](.env) | Variables de entorno necesarias para inicializar y administrar la base de datos consultorio. |
+| [docker-compose.yml](docker-compose.yml) | Archivo que define la orquestación. |
+| [demostracion.json](demostracion.json) | Ejemplo de automatización con n8n. |
 
 <br/>
 
