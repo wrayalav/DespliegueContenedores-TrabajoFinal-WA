@@ -32,17 +32,24 @@
 
 La tarea contiene los siguientes archivos:
 
+```
+.
+├── demostracion.json
+├── docker-compose.yml
+└── .env
+```
+
 | Archivo | Descripción |
 | ---- | ---- |
-| .env | `Pendiente` |
-| demostracion.json | `Pendiente` |
-| docker-compose.yml | `Pendiente` |
+| .env | Variables de entorno necesarias para inicializar y administrar la base de datos consultorio. |
+| docker-compose.yml | Archivo que define la orquestación. |
+| demostracion.json | Ejemplo de automatización con n8n. |
 
 <br/>
 
 ## Procedimiento
 
-`Pendiente`
+1. 
 
 <br/>
 
