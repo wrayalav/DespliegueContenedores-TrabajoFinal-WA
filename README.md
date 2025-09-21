@@ -24,7 +24,7 @@
 
 - Docker
 - Docker Compose
-- n8n
+- [n8n](https://hub.docker.com/r/n8nio/n8n)
 
 <br/>
 
