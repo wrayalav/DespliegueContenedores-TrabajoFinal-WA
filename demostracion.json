@@ -1,0 +1,58 @@
+{
+  "name": "My workflow",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "test",
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "7fbea1c0-9aaa-4985-85ce-b9c40c561751",
+      "webhookId": "7e5ab784-178d-4903-b634-058420a75413"
+    },
+    {
+      "parameters": {
+        "jsCode": "return [{ json: { message: '¡Hola desde n8n del Grupo 3!' } }];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        208,
+        0
+      ],
+      "id": "0ef870dc-0b28-4c91-80df-639ab9ebfbce",
+      "name": "Code in JavaScript"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "7a3bb5da-86ae-4c82-80d0-0ba6cd20c1b0",
+  "meta": {
+    "instanceId": "5279627d70983e294fc9fbf9902a6023767806f090429e87fa003c146a718b15"
+  },
+  "id": "nJlBcUbADGAd80Pk",
+  "tags": []
+}
